@@ -1,0 +1,109 @@
+.container-home{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.subcontainer-home{
+    box-shadow: 0 0 0 1.5px rgba(171,171,171,0.3);
+    width: 70%;
+    height: 80%;
+    display: flex;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.container-left{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 40%;
+}
+
+.container-left h1{
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.container-left p{
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #797979;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.container-form textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #797979;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+    resize: none;
+}
+
+.container-form button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #fc0d0d;
+    color: #fff;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.container-form button:hover{
+    background-color: #8c1f1f;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.4);
+}
+
+
+.container-right{
+    border-left: 3px #eee solid;
+    width: 60%;
+    padding: 10px 40px;
+}
+
+.container-right li{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    margin: 5px 0;
+}
+
+.container-right li div h3{
+    font-weight: 300px;
+    font-size: 15px;
+}
