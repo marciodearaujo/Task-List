@@ -24,6 +24,6 @@ O projeto consiste de uma interface SPA (Single Page Application) para cadastro 
   <li>Execute o  camonado "npm -v" pra verificar se o pacote npm foi instalado corretamente</li>
   <li>Faça um clone desse repositório localmente</li>
   <li>Acesse a pasta raiz do projeto e execute: npm install. A pasta nodemodules vai ser carregada com as dependêmcias do projeto</li>
-  <li>Execute o  camonado "node ." e verifique o resultado no navegador no endereço: http://localhost:3000</li>
+  <li>Execute o  camonado "node start" e verifique o resultado no navegador no endereço: http://localhost:3000</li>
 </ol><br>
 Obs: O projeto consulta uma API NODEJS que faz o papel de BACK-END. Essa API não está hospedada atualmente, logo, os dados não serão carregados ou salvos. O intuito desse teste é apenas visualiar a interface FRONT-END desevolvida. A intenção futura é criar uma imagem DOCKER do BACK-END e disponibilizá-la para concluir o teste.
