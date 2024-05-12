@@ -19,7 +19,7 @@ O projeto consiste de uma interface SPA (Single Page Application) para cadastro 
 
 ## Como verificar o funcionamento do projeto na prática?
 <ol>
-  <li>Instale o [NODE JS](https://nodejs.org/en/download) em seu computador</li>
+  <li>Instale o <a href="https://nodejs.org/en/download" target="_blank">NODE JS</a> em seu computador</li>
   <li>Execute o  camando "node -v" pra verificar a versão do NODEJS e se está corretamente instalado</li>
   <li>Execute o  camonado "npm -v" pra verificar se o pacote npm foi instalado corretamente</li>
   <li>Faça um clone desse repositório localmente</li>
