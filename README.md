@@ -17,7 +17,7 @@ O projeto consiste de uma interface SPA (Single Page Application) para cadastro 
   <li>Roteamento entre componentes com BrowserRouter</li> 
 </ul>
 
-## Como verificar o funcionamente do projeto na prática?
+## Como verificar o funcionamento do projeto na prática?
 <ol>
   <li>Instalar o NODE JS em seu computador</li>
   <li>Execute o  camando "node -v" pra verificar a versão do NODEJS e se está corretamente instalado</li>
